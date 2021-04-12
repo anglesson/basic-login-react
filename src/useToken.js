@@ -14,7 +14,13 @@ export default function useToken() {
     setToken(userToken);
   };
 
+  const removeToken = () => {
+    sessionStorage.removeItem('token');
+    setToken(null);
+  }
+
   return {
+    removeToken,
     setToken: saveToken,
     token
   }
