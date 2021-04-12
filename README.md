@@ -41,3 +41,7 @@ Formato de retorno:
 ```JS
 { token: ... }
 ```
+
+## Funcionalidades
+* Login
+* Logout
